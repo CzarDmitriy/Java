@@ -1,2 +1,2 @@
 # job4j
-The project contains a block solution "Basix syntax"
+The project contains a block solution "Basic syntax"
