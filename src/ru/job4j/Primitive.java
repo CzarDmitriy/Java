@@ -4,7 +4,7 @@ public class Primitive {
     public static void main(String[] arg){
 
         byte age = 22;
-        boolean male = true; //or String gender = "male";
+        char male = 'M';
         float height = 1.80f;
         short bricks = 1500;
         int bacterium = 1800000;
