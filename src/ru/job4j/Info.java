@@ -2,6 +2,15 @@ package ru.job4j;
 
 public class Info {
     public static void main(String[] args) {
-        System.out.println("8.11.2021");
+
+        int age = 18;
+        float length = 78.0332F;
+        boolean baby = true;
+
+        System.out.println(age);
+        System.out.println(length);
+        System.out.println(baby);
+
+
     }
 }
