@@ -2,28 +2,21 @@ package ru.job4j;
 
 public class Calculator {
 
+    public static void main(String[] arg) {
 
-    public static void plus(
-            int hundred,
-            int fiveHundred,
-            int four,
-            int two,
-            int three,
-            int five
-    ) {
+        int six = 6;
+        int four = 4;
+        int five = 5;
+        int two = 2;
 
-        int result1 = hundred + fiveHundred;
-        int result2 = four + two;
-        int result3 = three + five;
+        int sixDivTwo = six / two;
+        int fiveMinusTwo = five - two;
+        int fourTimeTwo = four * two;
 
-        System.out.println(result1);
-        System.out.println(result2);
-        System.out.println(result3);
+        System.out.println(sixDivTwo);
+        System.out.println(fiveMinusTwo);
+        System.out.println(fourTimeTwo);
+
+
     }
-
-    public static void main(String[] args) {
-        Calculator.plus(100, 500, 4, 2, 3, 5);
-    }
-
-
 }
