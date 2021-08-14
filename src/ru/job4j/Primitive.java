@@ -1,8 +1,8 @@
 package ru.job4j;
 
 public class Primitive {
-    public static void main(String[] arg){
-
+    @SuppressWarnings("checkstyle:EmptyLineSeparator")
+    public static void main(String[] arg) {
         byte age = 22;
         char male = 'M';
         float height = 1.80f;
@@ -20,7 +20,6 @@ public class Primitive {
         System.out.println(distanceToSpace);
         System.out.println(workPermits);
         System.out.println(fileSize);
-
 
     }
 }

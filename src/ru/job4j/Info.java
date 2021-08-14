@@ -10,7 +10,5 @@ public class Info {
         System.out.println(age);
         System.out.println(length);
         System.out.println(baby);
-
-
     }
 }

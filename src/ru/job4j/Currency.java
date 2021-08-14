@@ -19,7 +19,6 @@ public class Currency {
         System.out.println("140 rubles are " + euro + " euro.");
         System.out.println("140 rubles are 2.0 Test result : " + passedEuro);
 
-
         //Dollar
         float dollar = Currency.rubleToDollar(300);
         float inDollar = 300;
