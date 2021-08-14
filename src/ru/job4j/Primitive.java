@@ -1,7 +1,6 @@
 package ru.job4j;
 
 public class Primitive {
-    @SuppressWarnings("checkstyle:EmptyLineSeparator")
     public static void main(String[] arg) {
         byte age = 22;
         char male = 'M';
