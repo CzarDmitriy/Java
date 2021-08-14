@@ -12,9 +12,14 @@ public class NewCalculator {
         return division(first, second) + subraction(first, second);
     }
 
+    public static double calculation(double addAndMultiply, double divisionAndSubtraction) {
+        return addAndMultiply + divisionAndSubtraction;
+    }
+
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + addAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + divisionAndSubtraction(33, 12));
+        System.out.println("Результат расчета равен: " + calculation(230, 23.75));
 
     }
 
