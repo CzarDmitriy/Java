@@ -8,7 +8,14 @@ public class NewCalculator {
 
     }
 
+    public static double divisionAndSubtraction(double first, double second) {
+        return division(first, second) + subraction(first, second);
+    }
+
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + addAndMultiply(10, 20));
+        System.out.println("Результат расчета равен: " + divisionAndSubtraction(33, 12));
+
     }
+
 }
