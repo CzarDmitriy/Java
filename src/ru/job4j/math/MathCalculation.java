@@ -12,7 +12,7 @@ public class MathCalculation {
     }
 
     public static double calculation(double first, double second) {
-        return addAndMultiply(first, second) + DivisionAndSubtraction(first, second);
+        return addAndMultiply(first, second) + divisionAndSubtraction(first, second);
     }
 
     public static void main(String[] args) {

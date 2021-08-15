@@ -21,7 +21,7 @@ public class MathFunction {
         return first + second;
     }
 
-    static double  DivisionAndSubtraction(double first, double second) {
+    static double  divisionAndSubtraction(double first, double second) {
         return first - second;
     }
 }
