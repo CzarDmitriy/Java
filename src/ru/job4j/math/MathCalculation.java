@@ -11,8 +11,13 @@ public class MathCalculation {
         return division(first, second) + subtraction(first, second);
     }
 
+    public static double calculation(double first, double second) {
+        return addAndMultiply(first, second) + DivisionAndSubtraction(first, second);
+    }
+
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + divisionAndSubtraction(33, 12));
+        System.out.println("Результат расчета равен: " + calculation(230, 23.75));
     }
 }
