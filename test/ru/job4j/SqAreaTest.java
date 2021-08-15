@@ -20,15 +20,15 @@ public class SqAreaTest {
         short k = 44;
         float expected = 2.0f;
         double out = SqArea.square(p, k);
-        Assert.assertEquals(expected, out, 2.0);
+        Assert.assertEquals(expected, out, 0.01);
     }
 
     @Test
     public void whenSquareThen43() {
         short p = 140;
         short k = 333;
-        float expected = 14.0f;
+        float expected = 14.62f;
         double out = SqArea.square(p, k);
-        Assert.assertEquals(expected, out, 14.0);
+        Assert.assertEquals(expected, out, 0.01);
     }
 }
