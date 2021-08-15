@@ -14,10 +14,6 @@ public class DummyBot {
             rsl = "До скорой встречи.";
         }
 
-        if ("Сколько будет 2 + 2".equals(question)) {
-            rsl = "Это ставит меня в тупик. Задайте другой вопрос.";
-        }
-
         return rsl;
     }
 

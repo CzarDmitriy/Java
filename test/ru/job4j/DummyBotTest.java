@@ -20,12 +20,4 @@ public class DummyBotTest {
         String result = DummyBot.answer(in);
         Assert.assertEquals(expected, result);
     }
-
-    @Test
-    public void whenUnknownBot() {
-        String in = "Сколько будет 2 + 2";
-        String expected = "Это ставит меня в тупик. Задайте другой вопрос.";
-        String result = DummyBot.answer(in);
-        Assert.assertEquals(expected, result);
-    }
 }
