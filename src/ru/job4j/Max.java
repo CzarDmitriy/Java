@@ -4,7 +4,7 @@ public class Max {
 
     public static int max(int left, int right) {
 
-        int result = left < right ? right : left;
+        int result = left > right ? left : right;
 
         return result;
     }
@@ -15,21 +15,3 @@ public class Max {
     }
 }
 
-/*
-Value: t = 12; h = 22; x = 33;
-Declare : t + h + x;
-
-if (x > t && h) output: x
-else output: less
-
-finish
-
-Clould you explain to me in more detail? I just see the diagram like this
-
- */
-
-/*
- Conjunction:
- eggs - true, pan - true: true
- eggs - true, pan - false:
- */
