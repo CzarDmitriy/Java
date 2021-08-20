@@ -24,17 +24,14 @@ public class SwitchWeek {
                 day = 5;
                 name = "Friday";
                 break;
-
             case 6:
                 day = 6;
                 name = "Saturday";
                 break;
-
             case 7:
                 day = 7;
                 name = "Sunday";
                 break;
-
             default:
                 name = "Error";
         }
