@@ -13,22 +13,4 @@ public class FindLoopTest {
         int expected = 0;
         Assert.assertEquals(result, expected);
     }
-
-    @Test
-    public void whenArrayHas5Then2() {
-        int[] date = {5, 4, 3, 2};
-        int el = 3;
-        int result = FindLoop.indexOf(date, el);
-        int expected = 2;
-        Assert.assertEquals(result, expected);
-    }
-
-    @Test
-    public void whenArrayHas5Then1() {
-        int[] date = {5, 4, 3, 2};
-        int el = 5;
-        int result = FindLoop.indexOf(date, el);
-        int expected = 0;
-        Assert.assertEquals(result, expected);
-    }
 }
