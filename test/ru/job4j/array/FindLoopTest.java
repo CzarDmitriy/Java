@@ -26,9 +26,9 @@ public class FindLoopTest {
     @Test
     public void whenArrayHas5Then1() {
         int[] date = {5, 4, 3, 2};
-        int el = 5;
+        int el = 7;
         int result = FindLoop.indexOf(date, el);
-        int expected = 0;
+        int expected = -1;
         Assert.assertEquals(result, expected);
     }
 }
