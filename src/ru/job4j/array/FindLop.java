@@ -4,40 +4,25 @@ public class FindLop {
     public static int indexOf(int[] data, int el) {
         int rst = -1;
 
-//          F A I L E D
-//        for (int i = 0; i < data.length; i++) {
-//            if (data[i] == el) {
-//                rst = el;
-//            } else {
-//                rst = -1;
-//            }
-//        }
+        for (int i = 0; i < data.length; i++) {
+            if (data[i] == el) {
+                return i;
+            }
+        }
 
-//        F A I L E D
-//        for (int i = 0; i < data.length; i++) {
-//            if (data[i] == el) {
-//                rst = el;
-//            }
-//        }
-
-//        F A I L E D
-//        for (int i = 0; i < data.length; i++) {
-//            if (el == data[i]) {
-//                rst = data[i];
-//            }
-//        }
-
-//        F A I L E D
-//        for (int i = 0; i < data.length; i++) {
-//            if (data[i] == data[0]) {
-//                rst = el;
-//            }
-//        }
         return rst;
     }
 
     public static int indexOf(int[] data, int el, int start, int finish) {
         int rst = -1;
+
+        // Where do I need to write the finish?
+        for (int i = start; i < data.length; i++) {
+            if (data[i] == el) {
+                return i;
+            }
+        }
+
         return rst;
     }
 }
