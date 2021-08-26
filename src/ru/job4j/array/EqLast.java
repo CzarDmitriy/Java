@@ -5,7 +5,7 @@ public class EqLast {
 
         for (int i = 0; i < left.length; i++) {
             if (left[2] == rigth[2]) {
-                return true;
+                return left[left.length - 1] == rigth[rigth.length - 1];
             }
         }
 
