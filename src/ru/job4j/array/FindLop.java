@@ -16,8 +16,7 @@ public class FindLop {
     public static int indexOf(int[] data, int el, int start, int finish) {
         int rst = -1;
 
-        // Where do I need to write the finish?
-        for (int i = start; i < data.length; i++) {
+        for (int i = start; i <= finish; i++) {
             if (data[i] == el) {
                 return i;
             }
