@@ -22,15 +22,13 @@ public class MatrixCheck {
         }
         return result;
     }
-}
 
-//    public static boolean monoVertical(char[][] board, int column) {
-//        boolean result = true;
-//        for (int cell = 0; cell < board.length; cell++) {
-//            if (board[column][cell] != 'X') {
-//                result = false;
-//                break;
-//            }
-//        }
-//        return result;
-//    }
+    public static char[] extractDiagonal(char[][] board) {
+        char[] rsl = new char[board.length];
+        for (int i = 0; i < rsl.length; i++) {
+            rsl[i] = board[i][i];
+        }
+        return rsl;
+    }
+    
+}
