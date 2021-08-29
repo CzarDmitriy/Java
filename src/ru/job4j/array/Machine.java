@@ -10,9 +10,9 @@ public class Machine {
         int diff = money - price;
 
         for (int coin : coins) {
-            while (diff >= coins[coin]) {
-                diff = diff - coins[coin];
-                rsl = coins[coin];
+            while (diff >= coin) {
+                diff -= coin;
+                rsl[size++] = coin;
                 size++;
             }
         }
