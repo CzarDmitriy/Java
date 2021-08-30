@@ -13,7 +13,6 @@ public class Machine {
             while (diff >= coin) {
                 diff -= coin;
                 rsl[size++] = coin;
-                size++;
             }
         }
 
