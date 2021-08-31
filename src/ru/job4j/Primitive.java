@@ -10,7 +10,6 @@ public class Primitive {
         int distanceToSpace = 450830000;
         boolean workPermits = true;
         float fileSize = 1.025f;
-
         System.out.println(age);
         System.out.println(male);
         System.out.println(height);
@@ -19,6 +18,5 @@ public class Primitive {
         System.out.println(distanceToSpace);
         System.out.println(workPermits);
         System.out.println(fileSize);
-
     }
 }

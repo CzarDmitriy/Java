@@ -10,7 +10,6 @@ public class PrintEventElement {
                                 + numbers[numbers.length - 1 - i]
                 );
             }
-
         }
     }
 }

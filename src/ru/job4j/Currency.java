@@ -10,7 +10,6 @@ public class Currency {
     }
 
     public static void main(String[] args) {
-        //Euro
         float euro = Currency.rubleToEuro(140);
         float inEuro = 140;
         float expectedEuro = 2;
@@ -18,8 +17,6 @@ public class Currency {
         boolean passedEuro = expectedEuro == outEuro;
         System.out.println("140 rubles are " + euro + " euro.");
         System.out.println("140 rubles are 2.0 Test result : " + passedEuro);
-
-        //Dollar
         float dollar = Currency.rubleToDollar(300);
         float inDollar = 300;
         float expectedDollar = 4.109589f;
